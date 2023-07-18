@@ -1,18 +1,7 @@
 import './App.css';
 import MySoal1 from './MySoal1.jsx';
-// import { MathJaxContext,MathJax } from "better-react-mathjax";
 
 function App() {
-//  const config = {
-//    loader: { load: ["input/asciimath"] },
-//    asciimath: {
-//      displaystyle: true,
-//      delimiters: [
-//        ["$", "$"],
-//        ["`", "`"]
-//      ]
-//    }
-//  };
 
 
   return (
@@ -25,10 +14,14 @@ function App() {
     </header>
     <main className="h-auto bg-slate-200 overflow-scroll">
           <MySoal1 />
+      
     </main>
     <footer className="App-header">
         <h1 className='text-2xl font-bold '>2023</h1>
         <br/>
+      
+        {/* <MyName name="irzal" /> */}
+        
         <hr/>
     </footer>
     </>

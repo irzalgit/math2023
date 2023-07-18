@@ -36,3 +36,28 @@
 </MathJax>
 </MathJaxContext>
 </div>
+const soalan=[
+  {id:0,
+  soal:<><math>
+    <mi>n disebut basis</mi>
+  </math></>,
+  opsi:'a'},
+  {id:1,
+  soal:<math>
+    <mi>a disebut basis</mi>
+  </math>,
+  opsi:'b'},
+  {id:2,
+  soal:<math>
+    <mi>a banyaknya perkalian ber ulang</mi>
+  </math>,
+  opsi:'c'},
+  {id:3,
+  soal:<math>
+    <msup>
+      <mi>a</mi>
+      <mn>n</mn>
+    </msup>
+  </math>,
+  opsi:'d'}
+  ];

@@ -1,6 +1,10 @@
 import React, { Component } from "react";
-import Bab1 from './Bab1.js';
+// import Bab1 from './Bab1.js';
+import Satu from './soal/satu';
+import Dua from './soal/dua';
+
 class MySoal1 extends Component {
+  
   constructor() {
     super();
     this.state = {
@@ -22,11 +26,11 @@ class MySoal1 extends Component {
   }
 
   render() {
+
     return (
 
       <>
-   
-      
+ 
 
       
 <div className="mx-auto w-full flex flex-wrap py-6 sm:px-0 lg:px-8">       
@@ -45,9 +49,9 @@ class MySoal1 extends Component {
 
         <section className="w-full md:w-1/2 ">
           <div className=" flex flex-col space-y-4  ">
-            <>
-            <Bab1 />         
-            </>
+       <Satu/>
+        <Dua/>
+        
           </div>
         </section>
         <aside className="border-green-400 text-black bg-green-200 border-2 p-4 rounded-3xl  w-full md:w-1/4 box-border">

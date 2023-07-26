@@ -38,7 +38,7 @@ export default function Satu(){
 return (  
   <>
    <div id="bab0" className="border-2 p-4 m-2 rounded-3xl box-border border-blue-400 text-black bg-blue-300" >
-  <h1 className='text-3xl bolt'>Bilangan Berpangkat</h1>
+  <h1 className='text-3xl bolt'>Bilangan Berpangkat,Akar , Logaritma</h1>
 <form>
 <ol>
 <li>

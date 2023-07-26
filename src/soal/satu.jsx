@@ -25,9 +25,9 @@ const skore=document.querySelector('#skore')
   jno8.checked ? poin=poin+10: poin=poin-2;
   jno9.checked ? poin=poin+5: poin=poin-1;
   jno10.checked ? poin=poin+10: poin=poin-2;
-  const tam=document.getElementById("tam") 
+  
   skore.innerHTML=poin
-    if (poin < 30) alert(tam.className.replace) 
+    
 
   };
  
@@ -395,8 +395,7 @@ return (
 <p id="skore"></p>
 <button className="py-2 px-6 bg-slate-500 text-slate-200 rounded-3xl" onClick={checkNilai}>cek nilai  bilangan berpangkat</button>
 <br />  
-<button id="tam" className="hidden py-2 px-6 bg-slate-500 text-slate-200 rounded-3xl" onClick={checkNilai}>lanjut</button>
-<br />  
+ 
 </div>
 </>
 )

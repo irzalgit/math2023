@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import Bab1 from './Bab1.js';
 import Satu from './soal/satu';
-import Dua from './soal/dua';
+// import Dua from './soal/dua';
 
 class MySoal1 extends Component {
   
@@ -22,7 +22,7 @@ class MySoal1 extends Component {
 
   formSubmit(event) {
     event.preventDefault();
-    console.log(this.state.selectedOption)
+    // console.log(this.state.selectedOption)
   }
 
   render() {
@@ -50,7 +50,7 @@ class MySoal1 extends Component {
         <section className="w-full md:w-1/2 ">
           <div className=" flex flex-col space-y-4  ">
        <Satu/>
-        <Dua/>
+        {/* <Dua/> */}
         
           </div>
         </section>
